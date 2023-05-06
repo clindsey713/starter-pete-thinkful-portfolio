@@ -19,23 +19,52 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+main{
+  max-width: 720px;
+margin: auto;
+
+}
+
+/*section*/
+section{
+  width: 100%;
+  padding: 20px 0;
+
+}
+.flex{
+
+  display: flex;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.between{
+  justify-content: space-between;
+}
+
+hr{
+  margin-bottom: 20px;
 }
 
 /* Containers */
-div {
-  background-color: #eae2b7;
-  margin: auto;
-  width: 600px;
+#portfolio p{
+  font-size: 14px;
 }
 
-article {
-  padding: 50px 0;
+.item{
+  width: 200px;
+  margin: 0 10px;
 }
 
-article div {
+/* article div {
   text-align: center;
   width: 100%;
-}
+} */
 
 /* Paragraphs */
 p {
@@ -50,9 +79,14 @@ a:link {
 a:hover {
   color: #f77f00;
 }
-
+nav{
+  display: flex;
+  align-items: center;
+}
 nav a {
   padding-left: 20px;
+  ;
+  
 }
 
 /* Images */
